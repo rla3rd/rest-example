@@ -41,3 +41,8 @@ bin/runserver
 
 ###### unit testing
 test.py
+
+###### rest service is hosted on 
+https://localhost:8000/fibonacci/x
+
+where x is the integer argument for the series to be returned
