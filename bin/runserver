@@ -1,0 +1,3 @@
+#!/bin/sh
+# start the wsgi server
+gunicorn --workers=2 --worker-class="egg:meinheld#gunicorn_worker" restserver --error-logfile ../log/gunicorn-error.log

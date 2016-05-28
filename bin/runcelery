@@ -1,0 +1,3 @@
+#!/bin/sh
+# start the celery backends
+celery multi start 2 -A task --logfile="../log/celery%n.log" --pidfile="/tmp/celery%n.pid"
