@@ -1,4 +1,5 @@
 # rest-example using falcon framework
+The application was built in python using memcached, rabbitmq, celery, falcon, gunicorn, and meinheld.  There is no build script. The example was built with scalability in mind.  There can be multiple frontends and backends running, allowing the code to be distributed, along with caching of results to reduce latency.
 
 ###### install memcached
 apt-get install memcached
