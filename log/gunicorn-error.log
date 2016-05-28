@@ -1,0 +1,233 @@
+2016-05-27 07:48:37 [32440] [INFO] Starting gunicorn 19.1.0
+2016-05-27 07:48:37 [32440] [INFO] Listening at: http://127.0.0.1:8000 (32440)
+2016-05-27 07:48:37 [32440] [INFO] Using worker: egg:meinheld#gunicorn_worker
+2016-05-27 07:48:37 [32452] [INFO] Booting worker with pid: 32452
+2016-05-27 07:48:37 [32455] [INFO] Booting worker with pid: 32455
+2016-05-27 07:48:37 [32440] [INFO] 2 workers
+2016-05-27 07:49:01 [32455] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/home/ralbright/anaconda2/lib/python2.7/site-packages/gunicorn-19.1.0-py2.7.egg/gunicorn/arbiter.py", line 507, in spawn_worker
+    worker.init_process()
+  File "/home/ralbright/anaconda2/lib/python2.7/site-packages/gunicorn-19.1.0-py2.7.egg/gunicorn/workers/base.py", line 120, in init_process
+    self.run()
+  File "/home/ralbright/anaconda2/lib/python2.7/site-packages/meinheld/gmeinheld.py", line 44, in run
+    server.run(self.wsgi)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/ralbright/anaconda2/lib/python2.7/site-packages/gunicorn-19.1.0-py2.7.egg/gunicorn/arbiter.py", line 507, in spawn_worker
+    worker.init_process()
+  File "/home/ralbright/anaconda2/lib/python2.7/site-packages/gunicorn-19.1.0-py2.7.egg/gunicorn/workers/base.py", line 120, in init_process
+    self.run()
+  File "/home/ralbright/anaconda2/lib/python2.7/site-packages/meinheld/gmeinheld.py", line 44, in run
+    server.run(self.wsgi)
+KeyboardInterrupt
+2016-05-27 07:49:01 [32452] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/home/ralbright/anaconda2/lib/python2.7/site-packages/gunicorn-19.1.0-py2.7.egg/gunicorn/arbiter.py", line 507, in spawn_worker
+    worker.init_process()
+  File "/home/ralbright/anaconda2/lib/python2.7/site-packages/gunicorn-19.1.0-py2.7.egg/gunicorn/workers/base.py", line 120, in init_process
+    self.run()
+  File "/home/ralbright/anaconda2/lib/python2.7/site-packages/meinheld/gmeinheld.py", line 44, in run
+    server.run(self.wsgi)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/ralbright/anaconda2/lib/python2.7/site-packages/gunicorn-19.1.0-py2.7.egg/gunicorn/arbiter.py", line 507, in spawn_worker
+    worker.init_process()
+  File "/home/ralbright/anaconda2/lib/python2.7/site-packages/gunicorn-19.1.0-py2.7.egg/gunicorn/workers/base.py", line 120, in init_process
+    self.run()
+  File "/home/ralbright/anaconda2/lib/python2.7/site-packages/meinheld/gmeinheld.py", line 44, in run
+    server.run(self.wsgi)
+KeyboardInterrupt
+2016-05-27 07:49:01 [32455] [INFO] Worker exiting (pid: 32455)
+2016-05-27 07:49:01 [32452] [INFO] Worker exiting (pid: 32452)
+2016-05-27 07:49:01 [32440] [INFO] 2 workers
+2016-05-27 07:49:01 [32440] [INFO] Handling signal: int
+2016-05-27 07:49:01 [32440] [INFO] Shutting down: Master
+2016-05-27 08:35:59 [2018] [INFO] Starting gunicorn 19.1.0
+2016-05-27 08:35:59 [2018] [INFO] Listening at: http://127.0.0.1:8000 (2018)
+2016-05-27 08:35:59 [2018] [INFO] Using worker: egg:meinheld#gunicorn_worker
+2016-05-27 08:35:59 [2023] [INFO] Booting worker with pid: 2023
+2016-05-27 08:35:59 [2024] [INFO] Booting worker with pid: 2024
+2016-05-27 08:35:59 [2018] [INFO] 2 workers
+2016-05-27 08:36:29 [2018] [INFO] 2 workers
+2016-05-27 08:36:59 [2018] [INFO] 2 workers
+2016-05-27 08:37:14 [2024] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/home/ralbright/anaconda2/lib/python2.7/site-packages/gunicorn-19.1.0-py2.7.egg/gunicorn/arbiter.py", line 507, in spawn_worker
+    worker.init_process()
+  File "/home/ralbright/anaconda2/lib/python2.7/site-packages/gunicorn-19.1.0-py2.7.egg/gunicorn/workers/base.py", line 120, in init_process
+    self.run()
+  File "/home/ralbright/anaconda2/lib/python2.7/site-packages/meinheld/gmeinheld.py", line 44, in run
+    server.run(self.wsgi)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/ralbright/anaconda2/lib/python2.7/site-packages/gunicorn-19.1.0-py2.7.egg/gunicorn/arbiter.py", line 507, in spawn_worker
+    worker.init_process()
+  File "/home/ralbright/anaconda2/lib/python2.7/site-packages/gunicorn-19.1.0-py2.7.egg/gunicorn/workers/base.py", line 120, in init_process
+    self.run()
+  File "/home/ralbright/anaconda2/lib/python2.7/site-packages/meinheld/gmeinheld.py", line 44, in run
+    server.run(self.wsgi)
+KeyboardInterrupt
+2016-05-27 08:37:14 [2023] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/home/ralbright/anaconda2/lib/python2.7/site-packages/gunicorn-19.1.0-py2.7.egg/gunicorn/arbiter.py", line 507, in spawn_worker
+    worker.init_process()
+  File "/home/ralbright/anaconda2/lib/python2.7/site-packages/gunicorn-19.1.0-py2.7.egg/gunicorn/workers/base.py", line 120, in init_process
+    self.run()
+  File "/home/ralbright/anaconda2/lib/python2.7/site-packages/meinheld/gmeinheld.py", line 44, in run
+    server.run(self.wsgi)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/ralbright/anaconda2/lib/python2.7/site-packages/gunicorn-19.1.0-py2.7.egg/gunicorn/arbiter.py", line 507, in spawn_worker
+    worker.init_process()
+  File "/home/ralbright/anaconda2/lib/python2.7/site-packages/gunicorn-19.1.0-py2.7.egg/gunicorn/workers/base.py", line 120, in init_process
+    self.run()
+  File "/home/ralbright/anaconda2/lib/python2.7/site-packages/meinheld/gmeinheld.py", line 44, in run
+    server.run(self.wsgi)
+KeyboardInterrupt
+2016-05-27 08:37:14 [2024] [INFO] Worker exiting (pid: 2024)
+2016-05-27 08:37:14 [2023] [INFO] Worker exiting (pid: 2023)
+2016-05-27 08:37:14 [2018] [INFO] 2 workers
+2016-05-27 08:37:14 [2018] [INFO] Handling signal: int
+2016-05-27 08:37:14 [2018] [INFO] Shutting down: Master
+2016-05-27 08:38:47 [2158] [INFO] Starting gunicorn 19.1.0
+2016-05-27 08:38:47 [2158] [INFO] Listening at: http://127.0.0.1:8000 (2158)
+2016-05-27 08:38:47 [2158] [INFO] Using worker: egg:meinheld#gunicorn_worker
+2016-05-27 08:38:47 [2163] [INFO] Booting worker with pid: 2163
+2016-05-27 08:38:48 [2166] [INFO] Booting worker with pid: 2166
+2016-05-27 08:38:48 [2158] [INFO] 2 workers
+2016-05-27 08:39:17 [2158] [INFO] 2 workers
+2016-05-27 08:39:47 [2158] [INFO] 2 workers
+2016-05-27 08:40:16 [2158] [INFO] 2 workers
+2016-05-27 08:40:45 [2158] [INFO] 2 workers
+2016-05-27 08:41:14 [2158] [INFO] 2 workers
+2016-05-27 08:41:43 [2158] [INFO] 2 workers
+2016-05-27 08:42:12 [2158] [INFO] 2 workers
+2016-05-27 08:42:41 [2158] [INFO] 2 workers
+2016-05-27 08:43:10 [2158] [INFO] 2 workers
+2016-05-27 08:43:39 [2158] [INFO] 2 workers
+2016-05-27 08:44:09 [2158] [INFO] 2 workers
+2016-05-27 08:44:38 [2158] [INFO] 2 workers
+2016-05-27 08:45:07 [2158] [INFO] 2 workers
+2016-05-27 08:45:36 [2158] [INFO] 2 workers
+2016-05-27 08:46:05 [2158] [INFO] 2 workers
+2016-05-27 08:46:34 [2158] [INFO] 2 workers
+2016-05-27 08:46:59 [2158] [INFO] 2 workers
+2016-05-27 08:46:59 [2158] [INFO] Handling signal: int
+2016-05-27 08:46:59 [2166] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/home/ralbright/anaconda2/lib/python2.7/site-packages/gunicorn-19.1.0-py2.7.egg/gunicorn/arbiter.py", line 507, in spawn_worker
+    worker.init_process()
+  File "/home/ralbright/anaconda2/lib/python2.7/site-packages/gunicorn-19.1.0-py2.7.egg/gunicorn/workers/base.py", line 120, in init_process
+    self.run()
+  File "/home/ralbright/anaconda2/lib/python2.7/site-packages/meinheld/gmeinheld.py", line 44, in run
+    server.run(self.wsgi)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/ralbright/anaconda2/lib/python2.7/site-packages/gunicorn-19.1.0-py2.7.egg/gunicorn/arbiter.py", line 507, in spawn_worker
+    worker.init_process()
+  File "/home/ralbright/anaconda2/lib/python2.7/site-packages/gunicorn-19.1.0-py2.7.egg/gunicorn/workers/base.py", line 120, in init_process
+    self.run()
+  File "/home/ralbright/anaconda2/lib/python2.7/site-packages/meinheld/gmeinheld.py", line 44, in run
+    server.run(self.wsgi)
+KeyboardInterrupt
+2016-05-27 08:46:59 [2166] [INFO] Worker exiting (pid: 2166)
+2016-05-27 08:46:59 [2163] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/home/ralbright/anaconda2/lib/python2.7/site-packages/gunicorn-19.1.0-py2.7.egg/gunicorn/arbiter.py", line 507, in spawn_worker
+    worker.init_process()
+  File "/home/ralbright/anaconda2/lib/python2.7/site-packages/gunicorn-19.1.0-py2.7.egg/gunicorn/workers/base.py", line 120, in init_process
+    self.run()
+  File "/home/ralbright/anaconda2/lib/python2.7/site-packages/meinheld/gmeinheld.py", line 44, in run
+    server.run(self.wsgi)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/ralbright/anaconda2/lib/python2.7/site-packages/gunicorn-19.1.0-py2.7.egg/gunicorn/arbiter.py", line 507, in spawn_worker
+    worker.init_process()
+  File "/home/ralbright/anaconda2/lib/python2.7/site-packages/gunicorn-19.1.0-py2.7.egg/gunicorn/workers/base.py", line 120, in init_process
+    self.run()
+  File "/home/ralbright/anaconda2/lib/python2.7/site-packages/meinheld/gmeinheld.py", line 44, in run
+    server.run(self.wsgi)
+KeyboardInterrupt
+2016-05-27 08:46:59 [2163] [INFO] Worker exiting (pid: 2163)
+2016-05-27 08:46:59 [2158] [INFO] Shutting down: Master
+2016-05-27 08:47:08 [2434] [INFO] Starting gunicorn 19.1.0
+2016-05-27 08:47:08 [2434] [INFO] Listening at: http://127.0.0.1:8000 (2434)
+2016-05-27 08:47:08 [2434] [INFO] Using worker: egg:meinheld#gunicorn_worker
+2016-05-27 08:47:08 [2441] [INFO] Booting worker with pid: 2441
+2016-05-27 08:47:08 [2441] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/home/ralbright/anaconda2/lib/python2.7/site-packages/gunicorn-19.1.0-py2.7.egg/gunicorn/arbiter.py", line 507, in spawn_worker
+    worker.init_process()
+  File "/home/ralbright/anaconda2/lib/python2.7/site-packages/gunicorn-19.1.0-py2.7.egg/gunicorn/workers/base.py", line 114, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/home/ralbright/anaconda2/lib/python2.7/site-packages/gunicorn-19.1.0-py2.7.egg/gunicorn/app/base.py", line 66, in wsgi
+    self.callable = self.load()
+  File "/home/ralbright/anaconda2/lib/python2.7/site-packages/gunicorn-19.1.0-py2.7.egg/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/ralbright/anaconda2/lib/python2.7/site-packages/gunicorn-19.1.0-py2.7.egg/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/ralbright/anaconda2/lib/python2.7/site-packages/gunicorn-19.1.0-py2.7.egg/gunicorn/util.py", line 356, in import_app
+    __import__(module)
+ImportError: No module named run
+Traceback (most recent call last):
+  File "/home/ralbright/anaconda2/lib/python2.7/site-packages/gunicorn-19.1.0-py2.7.egg/gunicorn/arbiter.py", line 507, in spawn_worker
+    worker.init_process()
+  File "/home/ralbright/anaconda2/lib/python2.7/site-packages/gunicorn-19.1.0-py2.7.egg/gunicorn/workers/base.py", line 114, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/home/ralbright/anaconda2/lib/python2.7/site-packages/gunicorn-19.1.0-py2.7.egg/gunicorn/app/base.py", line 66, in wsgi
+    self.callable = self.load()
+  File "/home/ralbright/anaconda2/lib/python2.7/site-packages/gunicorn-19.1.0-py2.7.egg/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/ralbright/anaconda2/lib/python2.7/site-packages/gunicorn-19.1.0-py2.7.egg/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/ralbright/anaconda2/lib/python2.7/site-packages/gunicorn-19.1.0-py2.7.egg/gunicorn/util.py", line 356, in import_app
+    __import__(module)
+ImportError: No module named run
+2016-05-27 08:47:08 [2441] [INFO] Worker exiting (pid: 2441)
+2016-05-27 08:47:59 [2491] [INFO] Starting gunicorn 19.1.0
+2016-05-27 08:47:59 [2491] [INFO] Listening at: http://127.0.0.1:8000 (2491)
+2016-05-27 08:47:59 [2491] [INFO] Using worker: egg:meinheld#gunicorn_worker
+2016-05-27 08:47:59 [2496] [INFO] Booting worker with pid: 2496
+2016-05-27 08:47:59 [2497] [INFO] Booting worker with pid: 2497
+2016-05-27 08:47:59 [2491] [INFO] 2 workers
+2016-05-27 08:48:29 [2491] [INFO] 2 workers
+2016-05-27 08:48:45 [2496] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/home/ralbright/anaconda2/lib/python2.7/site-packages/gunicorn-19.1.0-py2.7.egg/gunicorn/arbiter.py", line 507, in spawn_worker
+    worker.init_process()
+  File "/home/ralbright/anaconda2/lib/python2.7/site-packages/gunicorn-19.1.0-py2.7.egg/gunicorn/workers/base.py", line 120, in init_process
+    self.run()
+  File "/home/ralbright/anaconda2/lib/python2.7/site-packages/meinheld/gmeinheld.py", line 44, in run
+    server.run(self.wsgi)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/ralbright/anaconda2/lib/python2.7/site-packages/gunicorn-19.1.0-py2.7.egg/gunicorn/arbiter.py", line 507, in spawn_worker
+    worker.init_process()
+  File "/home/ralbright/anaconda2/lib/python2.7/site-packages/gunicorn-19.1.0-py2.7.egg/gunicorn/workers/base.py", line 120, in init_process
+    self.run()
+  File "/home/ralbright/anaconda2/lib/python2.7/site-packages/meinheld/gmeinheld.py", line 44, in run
+    server.run(self.wsgi)
+KeyboardInterrupt
+2016-05-27 08:48:45 [2497] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/home/ralbright/anaconda2/lib/python2.7/site-packages/gunicorn-19.1.0-py2.7.egg/gunicorn/arbiter.py", line 507, in spawn_worker
+    worker.init_process()
+  File "/home/ralbright/anaconda2/lib/python2.7/site-packages/gunicorn-19.1.0-py2.7.egg/gunicorn/workers/base.py", line 120, in init_process
+    self.run()
+  File "/home/ralbright/anaconda2/lib/python2.7/site-packages/meinheld/gmeinheld.py", line 44, in run
+    server.run(self.wsgi)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/home/ralbright/anaconda2/lib/python2.7/site-packages/gunicorn-19.1.0-py2.7.egg/gunicorn/arbiter.py", line 507, in spawn_worker
+    worker.init_process()
+  File "/home/ralbright/anaconda2/lib/python2.7/site-packages/gunicorn-19.1.0-py2.7.egg/gunicorn/workers/base.py", line 120, in init_process
+    self.run()
+  File "/home/ralbright/anaconda2/lib/python2.7/site-packages/meinheld/gmeinheld.py", line 44, in run
+    server.run(self.wsgi)
+KeyboardInterrupt
+2016-05-27 08:48:45 [2496] [INFO] Worker exiting (pid: 2496)
+2016-05-27 08:48:45 [2497] [INFO] Worker exiting (pid: 2497)
+2016-05-27 08:48:45 [2491] [INFO] 2 workers
+2016-05-27 08:48:45 [2491] [INFO] Handling signal: int
+2016-05-27 08:48:45 [2491] [INFO] Shutting down: Master
