@@ -43,6 +43,6 @@ bin/runserver
 test.py
 
 ###### rest service is hosted on 
-https://localhost:8000/fibonacci/x
+http://localhost:8000/fibonacci/x
 
 where x is the integer argument for the series to be returned
