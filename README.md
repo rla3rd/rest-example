@@ -35,13 +35,13 @@ python get-pip.py
 pip install meinheld
 
 ###### start the celery backends
-bin/runcelery
+./runcelery
 
 ###### start the wsgi server
-bin/runserver
+./runserver
 
 ###### unit testing
-test.py
+unittest.py
 
 ###### rest service is hosted on 
 http://localhost:8000/fibonacci/x
